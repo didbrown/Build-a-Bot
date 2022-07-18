@@ -14,13 +14,31 @@
                 href="/"
                 />
   </url><url>
+    <loc>/050-botdeployment/10_first.html</loc>
+  </url><url>
+    <loc>/040-botflowbuild/10_first.html</loc>
+  </url><url>
     <loc>/020-getting-started/10_first.html</loc>
   </url><url>
     <loc>/010-introduction.html</loc>
   </url><url>
+    <loc>/050-botdeployment/20_second.html</loc>
+  </url><url>
+    <loc>/040-botflowbuild/20_second.html</loc>
+  </url><url>
     <loc>/020-getting-started.html</loc>
   </url><url>
     <loc>/020-getting-started/20_second.html</loc>
+  </url><url>
+    <loc>/040-botflowbuild/30_third.html</loc>
+  </url><url>
+    <loc>/050-botdeployment.html</loc>
+  </url><url>
+    <loc>/040-botflowbuild.html</loc>
+  </url><url>
+    <loc>/040-botflowbuild/40_fourth.html</loc>
+  </url><url>
+    <loc>/040-botflowbuild/50_fifth.html</loc>
   </url><url>
     <loc>/090-conclution.html</loc>
   </url><url>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bot Deployment on Documentation for Hugo Learn Theme</title>
+    <link>/050-botdeployment.html</link>
+    <description>Recent content in Bot Deployment on Documentation for Hugo Learn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/050-botdeployment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding A Flow</title>
+      <link>/050-botdeployment/10_first.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/050-botdeployment/10_first.html</guid>
+      <description>##Adding a New Chat Flow</description>
+    </item>
+    
+    <item>
+      <title>Bot Flow Properties</title>
+      <link>/050-botdeployment/20_second.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/050-botdeployment/20_second.html</guid>
+      <description>Bot Flow Properties </description>
+    </item>
+    
+  </channel>
+</rss>

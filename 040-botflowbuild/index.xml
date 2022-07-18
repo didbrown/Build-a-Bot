@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Genesys Workshop on Documentation for Hugo Learn Theme</title>
-    <link>/</link>
-    <description>Recent content in Genesys Workshop on Documentation for Hugo Learn Theme</description>
+    <title>Bot Flow Build on Documentation for Hugo Learn Theme</title>
+    <link>/040-botflowbuild.html</link>
+    <description>Recent content in Bot Flow Build on Documentation for Hugo Learn Theme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Adding A Flow</title>
-      <link>/050-botdeployment/10_first.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/050-botdeployment/10_first.html</guid>
-      <description>##Adding a New Chat Flow</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="/040-botflowbuild/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ask Actions</title>
       <link>/040-botflowbuild/10_first.html</link>
@@ -25,27 +16,6 @@
     </item>
     
     <item>
-      <title>First Lesson</title>
-      <link>/020-getting-started/10_first.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/020-getting-started/10_first.html</guid>
-      <description>Configure Workshop   Step one
-  Step two
-  Step three
-  </description>
-    </item>
-    
-    <item>
-      <title>Bot Flow Properties</title>
-      <link>/050-botdeployment/20_second.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/050-botdeployment/20_second.html</guid>
-      <description>Bot Flow Properties </description>
-    </item>
-    
-    <item>
       <title>Flow &amp; Data Blocks</title>
       <link>/040-botflowbuild/20_second.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -53,18 +23,6 @@
       <guid>/040-botflowbuild/20_second.html</guid>
       <description>Flow and Data Blocks Flow Blocks   Clear Slot is useful for setting the value again. For example, capturing a password for reset, you can use the same Password Slot more than once. Can also be useful to remove private data that you do not want in subsequent flows. The only input is the Slot name
   Set Intent can be used to hard code an Intent based on a decision.</description>
-    </item>
-    
-    <item>
-      <title>Second Lesson</title>
-      <link>/020-getting-started/20_second.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/020-getting-started/20_second.html</guid>
-      <description>Advanced Lesson   Step one
-  Step two
-  Step three
-  </description>
     </item>
     
     <item>

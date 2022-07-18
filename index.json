@@ -7,6 +7,20 @@
 	"content": "Genesys Workshop Welcome In this workshop you will learn to apply your foundational knowledge of Genesys and master example use cases that demonstrate Experience as a Service.\nLearning Objectives  Setup and configure your environment. Creating users and groups. Configure security.  "
 },
 {
+	"uri": "/050-botdeployment/10_first.html",
+	"title": "Adding A Flow",
+	"tags": [],
+	"description": "",
+	"content": "##Adding a New Chat Flow\n"
+},
+{
+	"uri": "/040-botflowbuild/10_first.html",
+	"title": "Ask Actions",
+	"tags": [],
+	"description": "",
+	"content": "Adding Ask Actions  Now that we have the NLU model, we need to use it in the flow It will look like this now Ask for Intent is used to ask the user for input  Add All Intents Ask for Slot Ask for Slot Properties "
+},
+{
 	"uri": "/020-getting-started/10_first.html",
 	"title": "First Lesson",
 	"tags": [],
@@ -21,6 +35,20 @@
 	"content": "Genesys Workshop Series Introduction Welcome In this workshop, you will learn how to build a workshop from scratch using Github and a few other tools. This workshop is intended for internal teams and partners who are working to develop workshops.\n"
 },
 {
+	"uri": "/050-botdeployment/20_second.html",
+	"title": "Bot Flow Properties",
+	"tags": [],
+	"description": "",
+	"content": "Bot Flow Properties "
+},
+{
+	"uri": "/040-botflowbuild/20_second.html",
+	"title": "Flow &amp; Data Blocks",
+	"tags": [],
+	"description": "",
+	"content": "Flow and Data Blocks Flow Blocks   Clear Slot is useful for setting the value again. For example, capturing a password for reset, you can use the same Password Slot more than once. Can also be useful to remove private data that you do not want in subsequent flows. The only input is the Slot name\n  Set Intent can be used to hard code an Intent based on a decision. For example, if the previous flow passes the actual Intent, you can set it. It can also help when you want to jump from one Intent to another without having to capture a phrase. In this case, you might only have one Intent and only want to use the flow for Slot recognition. This could also be used with the Get Journey Segment block to set the intent based on the Predictive Engagement segment. The only input is the Intent name\n  Neither can use variables to set the values\n  Data Blocks   The blocks in the Data section of the Toolbox can be used as normal\n  Especially useful for looking up data mid conversation. For example, prompting for an Account Number in an Ask for Slot, then use a Data Action to see if it is a valid one. If not, use a loop to prompt again for the value.\n  This also allows fulfilment of the customer intent in the flow.\n  "
+},
+{
 	"uri": "/020-getting-started.html",
 	"title": "Getting Started",
 	"tags": [],
@@ -33,6 +61,41 @@
 	"tags": [],
 	"description": "",
 	"content": "Advanced Lesson   Step one\n  Step two\n  Step three\n  "
+},
+{
+	"uri": "/040-botflowbuild/30_third.html",
+	"title": "Communicate",
+	"tags": [],
+	"description": "",
+	"content": "Communicate   Used to add prompts that are not related to Intents or Slots\n  Can be used to provide additional instructions, legal disclaimers, waiting messages or other fixed text\n  Uses the Communication Sequence Builder, so allows you to prompt information from variables, such as slot values or the result of a Data Action\n    The Communication Sequence Builder can also be used to change the voice of the bot dependant on language and channel\n  Click the + next to Alternate sequences and choose a Language and Output Mode\n  Several can be added in one Communicate block\n  Very useful to make the bot sound right. So, in chat it might be “enter your account number”, but voice “say your account number”\n  "
+},
+{
+	"uri": "/050-botdeployment.html",
+	"title": "Bot Deployment",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/040-botflowbuild.html",
+	"title": "Bot Flow Build",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/040-botflowbuild/40_fourth.html",
+	"title": "Loops",
+	"tags": [],
+	"description": "",
+	"content": "Loops   Loops are useful to allow for some behaviour to be repeated and create a sequence of events that can be reused\n  The standard Loops all work as they do in other flows\n Loop - Start a loop with a counter Loop Until - Loop until a condition occurs Exit Loop - Break out of a normal loop at a certain activity Next Loop - Move to the next interation(loop count) based on a cindition    They are useful to get a Slot, validate it with a Data Actionand then ask for the value again if it is not correct\n  \u0026ldquo;Anything Else?\u0026rdquo; Loops   This is a new type to help ask if there is a new question and cycle round automatically\n  Different from other loops as it captures an answer and loops based on Yes\n  "
+},
+{
+	"uri": "/040-botflowbuild/50_fifth.html",
+	"title": "Event Handling",
+	"tags": [],
+	"description": "",
+	"content": "Event Handling Disconnect   There are 2 blocks in the Disconnect menu. Both indicate that the bot is done\n  Exit Bot Flow is the default added to the flow and will end the Bot Flow. However, it does not end the interaction, this will return to the calling Architect flow (Inbound Call, Inbound Chat or Inbound Message) instead. Use when you are done with the bot, but want to still route to agent or call a new Bot Flow\n  Disconnect indicates the interaction is done and will end it. It will not return to the calling Architect flow, but will end the call or messaging session\n  Both are End of Flow actions, so should only be used when the bot is finished.\n  "
 },
 {
 	"uri": "/090-conclution.html",
